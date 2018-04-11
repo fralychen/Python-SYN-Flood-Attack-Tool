@@ -1,0 +1,15 @@
+import socket
+
+cliList = []
+
+#create socket
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+#bind the ip and port
+s.bind(('0.0.0.0', 7788)):
+
+#start listen
+s.listen(10)
+while Ture:
+  socke, addr = s.accept()
+  cliList.append(sock)
