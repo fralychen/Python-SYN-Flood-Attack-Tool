@@ -4,4 +4,5 @@ import socket
 
 #create socket:
  s = socket.socket(socket.AF_inet, scoket.SOCK_STREAM)
+#extablish connection
  s.connect(('servre-IP',port))
